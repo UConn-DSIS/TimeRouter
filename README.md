@@ -7,6 +7,10 @@ margin/diversity gate and a CV-inverse-weighted fallback.
 
 **Result: LB MASE = 0.6746** on the full 97-config GIFT-EVAL test suite.
 
+📄 **Paper:** [TimeRouter: Efficient and Adaptive Routing of Time-Series Foundation Models](https://arxiv.org/abs/2606.11625)
+([arXiv:2606.11625](https://arxiv.org/abs/2606.11625)) —
+accepted at the [ICML 2026 Workshop on AI Forecasting](https://forecasting-workshop.github.io/).
+
 ---
 
 **Requirements:** an NVIDIA GPU.
@@ -132,3 +136,20 @@ meaningless (different denominators) — only the merged result is valid.
 |---|---|
 | `gift_eval/all_results.csv` | Leaderboard CSV — 97 rows × 15 cols, standard 11-metric list. |
 | `gift_eval/lb_mase.txt` | Achieved LB MASE (geometric mean of per-config MASE / seasonal-naive MASE). **Should read `0.6746`.** |
+
+---
+
+## Citation
+
+If you use TimeRouter, please cite:
+
+```bibtex
+@article{ning2026timerouter,
+  title   = {TimeRouter: Efficient and Adaptive Routing of Time-Series Foundation Models},
+  author  = {Ning, Kanghui and Jiang, Yushan and Rasul, Kashif and Schneider, Anderson and Nevmyvaka, Yuriy and Song, Dongjin},
+  journal = {arXiv preprint arXiv:2606.11625},
+  year    = {2026},
+}
+```
+
+> Accepted at the [ICML 2026 Workshop on AI Forecasting](https://forecasting-workshop.github.io/).
