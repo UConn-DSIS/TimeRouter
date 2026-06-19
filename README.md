@@ -1,6 +1,6 @@
 # TimeRouter
 
-State-of-the-art GIFT-EVAL submission. TimeRouter does end-to-end inference with
+State-of-the-art-level GIFT-EVAL submission. TimeRouter does end-to-end inference with
 **4 frozen time-series foundation models (TSFMs)** — Chronos-2, FlowState,
 PatchTST-FM, Sundial — combined by an **XGBoost router** with a
 margin/diversity gate and a CV-inverse-weighted fallback.
